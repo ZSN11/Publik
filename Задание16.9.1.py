@@ -7,7 +7,3 @@ class Rectangle:
     def __str__(self):
       return f"{self.x, self.y, self.width, self.heght}"
 
-res = Rectangle(5,10,50,100)
-a =res.__str__()
-print(type(a))
-print(res.__str__())
