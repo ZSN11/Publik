@@ -1,18 +1,18 @@
 
 clients = []
 
-while 'y':
+while True:
     client = []
-    name = input('Введите имя нового клиента''  ')
+    name = input('Р’РІРµРґРёС‚Рµ РёРјСЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р°''  ')
     client.append(name)
-    second_name = input('Введите фамилию нового клиента''  ')
+    second_name = input('Р’РІРµРґРёС‚Рµ С„Р°РјРёР»РёСЋ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р°''  ')
     client.append(second_name)
-    citi = input('Введите город проживания нового клиента''  ')
+    citi = input('Р’РІРµРґРёС‚Рµ РіРѕСЂРѕРґ РїСЂРѕР¶РёРІР°РЅРёСЏ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р°''  ')
     client.append(citi)
-    balance = input('Введите баланс нового клиента (руб)''  ')
+    balance = input('Р’РІРµРґРёС‚Рµ Р±Р°Р»Р°РЅСЃ РЅРѕРІРѕРіРѕ РєР»РёРµРЅС‚Р°''  ')
     client.append(balance)
     clients.extend([client])
-    stop = input("введите y,если продолжить или n, если остановиться"  ' ')
+    stop = input("РҐРѕС‚РёС‚Рµ РІРІРµСЃС‚Рё РµС‰Рµ РєР»РёРµРЅС‚Р°, РЅР°Р¶РјРёС‚Рµ 'y"  ' ')
 
     if stop == 'y':
      continue
